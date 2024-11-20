@@ -1,3 +1,6 @@
+import nltk
+nltk.data.path.append('nlkt_data')
+nltk.download('vader_lexicon', download_dir='nlkt_data')
 import streamlit as st
 import time
 from datetime import datetime

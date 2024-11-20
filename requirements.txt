@@ -1,0 +1,10 @@
+streamlit
+textblob
+nltk
+plotly
+pandas
+python-docx
+PyPDF2
+flake8
+pytest
+coverage
