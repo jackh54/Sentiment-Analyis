@@ -1,0 +1,47 @@
+.sentiment-box {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.score-indicator {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.history-item {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.emotion-box {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.stTextInput > div > div > input {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.sentiment-chart {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
