@@ -1,4 +1,5 @@
 # Sentiment and Emotion Analyzer
+[![Python application](https://github.com/jackh54/Sentiment-Analyis/actions/workflows/python-app.yml/badge.svg)](https://github.com/jackh54/Sentiment-Analyis/actions/workflows/python-app.yml)
 
 This is a Python-based application that analyzes sentiment and emotions from text using **TextBlob**, **NLTK**, and **VADER**. It provides visualizations for sentiment trends and comparative analysis for multiple texts.
 
