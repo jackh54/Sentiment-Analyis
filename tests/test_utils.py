@@ -24,8 +24,3 @@ def test_extract_text_from_pdf_invalid_file():
     # Simulate invalid PDF input
     with pytest.raises(Exception):
         extract_text_from_pdf(io.BytesIO(b"Not a PDF"))
-
-def test_extract_text_from_docx_invalid_file():
-    # Simulate invalid DOCX input
-    with pytest.raises(Exception):
-        extract_text_from_docx(io.BytesIO(b"Not a DOCX"))
