@@ -4,7 +4,7 @@ nltk
 plotly
 pandas
 python-docx
-PyPDF2
+pypdf
 flake8
 pytest
 coverage

@@ -6,7 +6,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import docx
-import PyPDF2
+from pypdf import PdfReader
 import io
 import pandas as pd
 from datetime import datetime
@@ -20,16 +20,15 @@ except LookupError:
     nltk.download('vader_lexicon')
 
 def extract_text_from_pdf(pdf_file):
-    # handle text extraction from pdf files
+    """Extract text from a PDF file."""
     try:
-        pdf_reader = PyPDF2.PdfReader(pdf_file)
+        pdf_reader = PdfReader(pdf_file)
         text = ""
         for page in pdf_reader.pages:
             text += page.extract_text() + "\n"
         return text.strip()
     except Exception as e:
-        st.error(f"Error processing PDF: {str(e)}")
-        return None
+        raise ValueError(f"Error processing PDF: {str(e)}")
 
 def extract_text_from_docx(docx_file):
     # deal with extracting text from docx files
