@@ -1,4 +1,5 @@
 import pytest
+import io
 from utils import analyze_sentiment, extract_text_from_pdf, extract_text_from_docx
 
 def test_analyze_sentiment_positive():
