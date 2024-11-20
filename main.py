@@ -1,14 +1,14 @@
 import nltk
-nltk.data.path.append('nlkt_data')
-nltk.download('vader_lexicon', download_dir='nlkt_data')
 import streamlit as st
-import time
 from datetime import datetime
 from utils import (
     analyze_sentiment, get_color_scheme, create_sentiment_chart,
     get_emotion_color, extract_text_from_pdf, extract_text_from_docx,
     create_comparison_chart, get_text_summary, calculate_trend
 )
+
+nltk.data.path.append('nlkt_data')
+nltk.download('vader_lexicon', download_dir='nlkt_data')
 
 # set up the page with a nice title, icon, and layout
 st.set_page_config(
