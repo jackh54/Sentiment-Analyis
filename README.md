@@ -36,7 +36,7 @@ This is a Python-based application that analyzes sentiment and emotions from tex
 
 3. Run the application:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 4. Open the app in your browser (default is [http://localhost:8501](http://localhost:8501)).
