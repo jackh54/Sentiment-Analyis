@@ -3,6 +3,12 @@
 
 This is a Python-based application that analyzes sentiment and emotions from text using **TextBlob**, **NLTK**, and **VADER**. It provides visualizations for sentiment trends and comparative analysis for multiple texts.
 
+## Live Preview
+
+Check out the live preview of the app:
+
+- https://jackh54-sentiment-analyis.streamlit.app/
+
 ## Features
 
 - **Text Sentiment Analysis**: Analyze the overall sentiment (positive, neutral, negative) and subjectivity of input text.
