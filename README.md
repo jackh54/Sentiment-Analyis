@@ -22,7 +22,7 @@ Check out the live preview of the app:
 - **Python Libraries**:
   - `TextBlob`
   - `NLTK` (VADER Sentiment Analyzer)
-  - `PyPDF2`
+  - `pypdf`
   - `docx`
   - `plotly`
   - `pandas`
